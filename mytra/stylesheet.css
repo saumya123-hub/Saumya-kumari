@@ -1,0 +1,18 @@
+
+.navbar{
+height: 62px;
+background: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.navbar-logo{
+    background-image: url("../img/OIP.webp");
+     height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    margin-left: 10px;
+}

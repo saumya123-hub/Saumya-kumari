@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+height: 62px;
+background: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("OIP.webp");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/* box 2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+   border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+/* PANEL */
+.panel{
+    height: 40PX;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color:#e2e7e6;
+}
+.nav-span {
+    display: flex;
+    justify-content: space-between;
+    /* equal gap */
+    align-items: center;
+    gap: 10px;
+    /* optional spacing */
+    margin: 10px 10px;
+}
+.photo {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1500px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ph1 {
+    background-image: url("789ca1e39bd6a1ff.webp");
+    margin-right: 10px;
+}
+
+.ph2 {
+    background-image: url("cb069a7cb761bf1e.webp");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ph3 {
+    background-image: url("d17697e94e3af1ff.webp");
+    margin-left: 10px;
+}
+.nav-ra {
+    display: flex;
+    justify-content: space-between;
+    /* equal gap */
+    align-items: center;
+    gap: 10px;
+    /* optional spacing */
+    margin: 10px 10px;
+}
+.image{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+     width: 280px;
+    height: 400px;
+     background-size: cover;
+}
+.img1{
+    background-image: url("..//img/1ac2e9c6e09c417b.webp");
+    margin-right: 10px;
+}
+.img2{
+    background-image: url("../img/231d3d372e7a963d.webp");
+    margin-left: 10px;
+}
+.img3{
+    background-image: url("../img/3853d4a0c92f3ace.webp");
+    margin-right: 500px;
+}
+h3{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;          /* sab ek line me */
+    gap: 15px;              /* spacing */
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.card{
+    width: 180px;
+    height: 250px;
+}
+
+.mobile{
+    width: 150px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.mg1{
+    background-image: url("../img/-original-imagzhspdmx4egff.webp");
+    margin-right: 10px;
+}
+.mg2{
+    background-image: url("../img/-original-imah4k2sjmjj8qqj.webp");
+    margin-right: 10px;
+}
+.mg3{
+    background-image: url("../img/-original-imah7jsp8bh3s4rv.webp");
+    margin-right: 10px;
+}
+.mg4{
+    background-image: url("../img/-original-imah83ezvx8m7hs6.webp");
+    margin-right: 10px;
+}
+.mg5{
+    background-image: url("../img/-original-imahjnbff2zb4huq.webp");
+    margin-right: 10px;
+}
+.mg6{
+    background-image: url("../img/a10v-ds-keypad-phone-with-voice-feature-800-mah-battery-wireless-original-imahcaxhsdnqe6tv.webp");
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 90px;
+    height: 200px;
+}
+
+.info{
+    margin-top: 8px;
+}

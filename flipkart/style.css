@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    margin-top: 15px;
+}
+
+.logo {
+
+    background-image: url("Track-Flipkart-Order.jpg");
+    height: 40px;
+    width: 100px;
+    border-radius: 9px;
+    margin-left: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-box {
+    margin-left: 20px;
+    background-color: silver;
+    border-radius: 9px;
+    height: 40px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    /* 🔥 vertical center */
+    gap: 10px;
+    /* 🔥 spacing between icon & text */
+    padding: 0 8px;
+    /* thoda andar space */
+}
+
+.aero {
+    background-image: url("7ab4040af860941d.webp");
+    height: 15px;
+    width: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ❌ margin हटाओ */
+.travel {
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.location {
+    margin-left: 850px;
+    margin-top: 9px;
+}
+
+.search-box {
+    margin-left: 90px;
+    margin-top: 25px;
+    position: relative;
+    width: 700px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    /* 🔥 left me space icon ke liye */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-box i {
+    position: absolute;
+    left: 10px;
+    /* 🔥 icon inside box */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.nav-bar {
+    display: flex;
+    /* 🔥 same line me laane ke liye */
+    align-items: center;
+    /* vertical center */
+    gap: 15px;
+    /* spacing */
+}
+
+.login {
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+p {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.nav-cart {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.nav-grid {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* equal space */
+    align-items: center;
+    flex-wrap: wrap;
+    /* mobile me wrap ho jayega */
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    /* icon ke niche text */
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.item i {
+    font-size: 22px;
+}
+
+.nav-span {
+    display: flex;
+    justify-content: space-between;
+    /* equal gap */
+    align-items: center;
+    gap: 10px;
+    /* optional spacing */
+    margin: 10px 10px;
+}
+
+.photo {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1500px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ph1 {
+    background-image: url("789ca1e39bd6a1ff.webp");
+    margin-right: 10px;
+}
+
+.ph2 {
+    background-image: url("cb069a7cb761bf1e.webp");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ph3 {
+    background-image: url("d17697e94e3af1ff.webp");
+    margin-left: 10px;
+}
+.nav-ra {
+    display: flex;
+    justify-content: space-between;
+    /* equal gap */
+    align-items: center;
+    gap: 10px;
+    /* optional spacing */
+    margin: 10px 10px;
+}
+.image{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+     width: 280px;
+    height: 400px;
+     background-size: cover;
+}
+.img1{
+    background-image: url("..//img/1ac2e9c6e09c417b.webp");
+    margin-right: 10px;
+}
+.img2{
+    background-image: url("../img/231d3d372e7a963d.webp");
+    margin-left: 10px;
+}
+.img3{
+    background-image: url("../img/3853d4a0c92f3ace.webp");
+    margin-right: 500px;
+}
+h3{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;          /* sab ek line me */
+    gap: 15px;              /* spacing */
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.card{
+    width: 180px;
+    height: 250px;
+}
+
+.mobile{
+    width: 150px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.mg1{
+    background-image: url("../img/-original-imagzhspdmx4egff.webp");
+    margin-right: 10px;
+}
+.mg2{
+    background-image: url("../img/-original-imah4k2sjmjj8qqj.webp");
+    margin-right: 10px;
+}
+.mg3{
+    background-image: url("../img/-original-imah7jsp8bh3s4rv.webp");
+    margin-right: 10px;
+}
+.mg4{
+    background-image: url("../img/-original-imah83ezvx8m7hs6.webp");
+    margin-right: 10px;
+}
+.mg5{
+    background-image: url("../img/-original-imahjnbff2zb4huq.webp");
+    margin-right: 10px;
+}
+.mg6{
+    background-image: url("../img/a10v-ds-keypad-phone-with-voice-feature-800-mah-battery-wireless-original-imahcaxhsdnqe6tv.webp");
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 90px;
+    height: 200px;
+}
+
+.info{
+    margin-top: 8px;
+}

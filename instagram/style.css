@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+.container {
+    background-color: white;
+    height: 650px;
+    width: 350px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    border-radius: 20px;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+}
+
+.logo {
+    background-image: url("OIP.webp");
+    height: 30px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.plus {
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.heart {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.messanger {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.circles {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle1 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+.circle2 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+.circle3 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+.circle4 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+.circle5 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+p {
+    display: inline-block;
+}
+
+.Story {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.aish {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.sand {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.aakash {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.priya {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.re {
+    display: flex;
+}
+
+.profile {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20PX;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    background-image: url(OIP\ \(1\).webp);
+    background-size: contain;
+}
+
+.ankita {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.dot {
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+.image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.post {
+    display: flex;
+
+}
+
+.like {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.comment {
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+.share {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.save {
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h6 {
+    color: gray;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.add_logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+}
